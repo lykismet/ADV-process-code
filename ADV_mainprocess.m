@@ -4,7 +4,7 @@ clear all; clc;warning off
 cd('E:\2021sysu\S1\Quadripod\ADV_down\process');
 % save('data_down.mat','dat');
 load('E:\2021sysu\S1\Quadripod\ADV_down\process\data_down.mat');
-%%   设置时间，挑选burst序列
+%% 设置时间，挑选burst序列
 record_start=datenum(2021,7,23,14,0,0);  %仪器开始记录时间
 record_end=datenum(2021,7,25,19,01,39);  %仪器结束记录时间
 start_time=datenum(2021,7,23,17,0,0);    %提取数据的开始时间
