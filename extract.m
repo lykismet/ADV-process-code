@@ -1,5 +1,4 @@
 %% 提取DAT文件中的burst
-
 function [burst1,burst2,burst3]=extract(dat,x,y,z,a)%a为每个burst中的个数，x，y，z为待提取的列参数
 
 
