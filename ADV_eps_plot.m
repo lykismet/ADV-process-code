@@ -4,8 +4,6 @@ load([path,'\adv_vel.mat']);
 u=vel.u;
 v=vel.v;
 wt=vel.wt;
-
-
 record_start=datenum(2021,7,23,14,0,0);  %仪器开始记录时间
 record_end=datenum(2021,7,25,19,01,39);  %仪器结束记录时间
 start_time=datenum(2021,7,23,17,0,0);    %提取数据的开始时间

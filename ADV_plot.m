@@ -4,7 +4,6 @@ cd('E:\2020Jul\ADV-aquadripod-s1\ADV-HARD\process');
 % load('E:\2020Jul\ADV-aquadripod-s1\ADV-HARD\process\data_up.mat');
 load('E:\2020Jul\ADV-aquadripod-s1\ADV-HARD\process\adv_meanvel_down');
 load('E:\2020Jul\ADV-aquadripod-s1\ADV-HARD\process\adv_meanvel_up');
-
 subplot(2,1,1)
     h11=plot(adv_meanvel_down(:,1),adv_meanvel_down(:,2),'linestyle','-','color','r','linewidth',2,...
         'marker','d','markersize',8,'markeredgecolor','r','markerfacecolor','r',...

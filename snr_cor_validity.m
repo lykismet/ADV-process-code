@@ -2,7 +2,6 @@ function [snr_cor_num,snr_cor_index,u,v,w]=snr_cor_validity(dat,burst_num,burst_
 %计算每个burst中SNR<5或COR<70%的个数
 %dat  原始数据
 %burst_num  筛选出来的列序号
-
 [snr_u,snr_v,snr_w]=extract(dat,9,10,11,burst_datanum);
 [cor_u,cor_v,cor_w]=extract(dat,12,13,14,burst_datanum);
 [u,v,w]=extract(dat,3,4,5,burst_datanum);
@@ -15,8 +14,6 @@ cor_w=cor_w(:,burst_num);
 u=u(:,burst_num);
 v=v(:,burst_num);
 w=w(:,burst_num);
-
-
 snr_cor_num=nan(1,size(snr_u,2));
 snr_cor_index=[];
 for i=1:size(snr_u,2)

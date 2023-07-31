@@ -1,5 +1,4 @@
 function [ep,Relative,xielv,k1,k2]=adv_eps2(burst,fs,mflow,fig)
-
 for kk=1:size(burst,2)
     len=length(burst(:,kk));
     [obs_spe,f]=pwelch(burst(:,kk),[],[],len/5,fs);
