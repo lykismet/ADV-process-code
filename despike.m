@@ -1,9 +1,7 @@
 function [mpsta,despnum]=despike(orig,q)
-
 x=size(orig,1);
 um=sqrt(2*log(x));% 通用阈值
 list=size(orig);%要处理的数据的行数、列数
-
 for n=1:list(1,2)
     cn=10;    %去毛刺的初设循环次数
     a1=orig(:,n); % 将需要处理的数据赋值给a1
